@@ -90,7 +90,7 @@ public:
 private:
     int m_width;
     int m_height;
-
+    //necesitamos un constructor por defecto en candy sino dara error en Board(int width = DEFAULT_BOARD_WIDTH, int height = DEFAULT_BOARD_HEIGHT);
     Candy m_storage[MAX_SIZE][MAX_SIZE];    //guardar los objetos para que no se pierdan
     Candy* m_board[MAX_SIZE][MAX_SIZE];     //apuntador al tablero del juego
 
